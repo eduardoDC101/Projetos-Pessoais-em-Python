@@ -1,3 +1,12 @@
+"""
+
+Nesse programa, o usuário vai receber algumas instruções antes de começar o jogo de adivinhar a palavra secreta.
+As instruções são:  Digitar "stop" para sair do jogo e "cls" para limpar a tela.
+Fiz um pequeno sistema para verificar se ele digitou de fato uma letra, não um número, ou várias letras. 
+Conforme o usuário acerta as letras, a palavra que antes estava oculta (*******), começa a aparecer (s**u**t*).
+Ao final, é exibido quantas tentativas o usuário fez.
+
+"""
 import os 
 os.system("cls")
 
