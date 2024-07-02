@@ -1,3 +1,8 @@
+"""
+Aqui temos uma calculadora bem simples em Python, 
+minha ideia foi usar "linhas de comando" para fazer as operações ao invés de simbolos tradicionais(+,-,*,/),
+(como o "cls","ipconfig","color" ... do CMD do Windows
+"""
 import os
 
 new="s"
