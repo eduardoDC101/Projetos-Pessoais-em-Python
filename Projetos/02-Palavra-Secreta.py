@@ -15,7 +15,8 @@ print('Digite\n"stop" para sair do jogo ou\n"cls" para limpar a tela\n')
 os.system("PAUSE")
 
 os.system("CLS")
-PALAVRA_SECRETA = "Security"
+PALAVRA_SECRETA = input("Digite a palavra secreta: ")
+os.system("CLS")
 tamanho_da_palavra = len(PALAVRA_SECRETA)
 contador =0
 letras_acertadas = ""
